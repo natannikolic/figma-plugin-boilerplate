@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plugin UI</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <button id="create">Create Rectangle</button>
+
+    <script>
+      document.getElementById('create').onclick = () => {
+        parent.postMessage({ pluginMessage: { type: 'create-rect' } }, '*');
+      };
+    </script>
+  </body>
+</html>
