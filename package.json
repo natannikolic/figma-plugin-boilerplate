@@ -1,7 +1,7 @@
 {
-  "name": "hello-world-plugin",
+  "name": "figma-plugin-boilerplate",
   "version": "1.0.0",
-  "description": "A simple Hello World plugin for Figma",
+  "description": "A basic boilerplate for developing Figma plugins",
   "main": "code.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json"

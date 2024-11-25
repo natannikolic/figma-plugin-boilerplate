@@ -1,14 +1,11 @@
-# Figma Color Layer To Variable Plugin
+# Figma Plugin Boilerplate
 
-A Figma plugin that converts color layer components into color variables.
+This is a boilerplate repository for creating Figma plugins. It is designed to help you start building your plugin quickly and efficiently.
 
 ## Features
-- Converts color layers to variables
-- Supports light/dark mode variants
-- Maintains color value ordering (0-1000)
-- Allows adding to existing collections
+- Basic structure for a Figma plugin project
+- Includes boilerplate code to start your development
 
 ## Development
 - Built with TypeScript
-- Uses Figma Plugin API
-
+- Uses the Figma Plugin API

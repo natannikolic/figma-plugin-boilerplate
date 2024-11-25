@@ -1,6 +1,6 @@
 {
-  "name": "Hello World",
-  "id": "your-plugin-id", 
+  "name": "Figma Plugin Boilerplate",
+  "id": "com.yourname.plugin", 
   "api": "1.0.0",
   "main": "code.ts",
   "ui": "ui.html",
